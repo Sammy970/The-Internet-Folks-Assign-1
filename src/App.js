@@ -4,10 +4,12 @@ import HeroPage from './sections/HeroPage';
 import AboutPage from './sections/AboutPage';
 import LatestArticles from './sections/LatestArticles';
 import FooterPage from './sections/FooterPage';
+import NavPage from './sections/NavPage';
 
 function App() {
   return (
     <main className="min-h-screen bg-white text-black">
+      <NavPage />
       <section className="w-full">
         <HeroPage />
       </section>
