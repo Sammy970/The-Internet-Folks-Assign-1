@@ -1,9 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 const HeroPage = () => {
-  return (
-    <div>HeroPage</div>
-  )
-}
+  return <section>HeroPage</section>;
+};
 
-export default HeroPage
+export default HeroPage;

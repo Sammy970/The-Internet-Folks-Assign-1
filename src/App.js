@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './global.css';
 import HeroPage from './sections/HeroPage';
 import AboutPage from './sections/AboutPage';
 import LatestArticles from './sections/LatestArticles';
@@ -7,19 +7,17 @@ import FooterPage from './sections/FooterPage';
 
 function App() {
   return (
-    <main className="bg">
+    <main className="min-h-screen bg-white text-black">
       <section>
         <HeroPage />
       </section>
-      <section className="bg-gray">
+      <section className="bg-[#f8f8f8]">
         <AboutPage />
       </section>
       <section>
         <LatestArticles />
       </section>
-      <section className="bg-gray">
-        <FooterPage />
-      </section>
+      <FooterPage />
     </main>
   );
 }
