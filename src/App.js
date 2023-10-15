@@ -8,10 +8,10 @@ import FooterPage from './sections/FooterPage';
 function App() {
   return (
     <main className="min-h-screen bg-white text-black">
-      <section>
+      <section className="w-full">
         <HeroPage />
       </section>
-      <section className="bg-[#f8f8f8]">
+      <section className="bg-[#f8f8f8] w-full">
         <AboutPage />
       </section>
       <section>
