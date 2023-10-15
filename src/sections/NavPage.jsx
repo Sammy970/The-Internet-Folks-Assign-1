@@ -13,6 +13,7 @@ const NavPage = () => {
           borderRadius={'21px'}
           borderColor={'white'}
           borderWidth={1}
+          color={'white'}
         >
           Read More
         </Button>
