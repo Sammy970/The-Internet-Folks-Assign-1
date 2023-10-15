@@ -11,10 +11,10 @@ function App() {
       <section className="w-full">
         <HeroPage />
       </section>
-      <section className="bg-[#F0F1F7] w-full">
+      <section className="bg-[#F0F1F7] w-full md:mt-24">
         <AboutPage />
       </section>
-      <section>
+      <section className="w-full md:mt-5">
         <LatestArticles />
       </section>
       <FooterPage />
