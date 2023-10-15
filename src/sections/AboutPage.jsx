@@ -59,6 +59,7 @@ const AboutPage = () => {
           padding={6}
           paddingX={10}
           paddingY={3}
+          color={'white'}
           _hover={{ backgroundColor: '#e23745c7' }}
         >
           Read More

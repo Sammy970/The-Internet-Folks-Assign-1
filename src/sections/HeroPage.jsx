@@ -37,6 +37,7 @@ const HeroPage = () => {
           backgroundColor={'#E23744'}
           borderRadius={30}
           padding={6}
+          color={'white'}
           _hover={{ backgroundColor: '#e23745c7' }}
         >
           Explore Now!
