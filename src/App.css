@@ -1,0 +1,9 @@
+.bg {
+  background: #ffffff;
+  min-height: 100vh;
+  color: #1f1f1f;
+}
+
+.bg-gray {
+  background: #f8f8f8;
+}
